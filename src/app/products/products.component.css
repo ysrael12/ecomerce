@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Faustina:wght@300&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Faustina:wght@300&display=swap');
+.product-title{
+    align-self: center;
+    justify-self: center;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 30px;
+    margin-top: -400px;
+}
+
+.produto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: #8A98A5 solid 5px;
+    border-radius: 25px;
+    background:#F7F7F9;
+    padding: 50px;
+    margin: 30px;
+    gap: 20px;
+}
+
+.description {
+    background: #8A98A5;
+    padding:15px;
+    border: #4d565d solid 4px;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: -300px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    justify-self: center;
+}
+
+.price {
+    background:#FF7A00;
+    width: 90px;
+    height: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    justify-self: flex-end;
+    font-style: italic;
+    margin-top: -30px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Coda Caption', sans-serif;
+    flex-wrap: nowrap;
+    font-family: 'Faustina', serif;
+
+    font-family: 'Syncopate', sans-serif;
+}

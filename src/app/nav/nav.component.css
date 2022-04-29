@@ -1,0 +1,31 @@
+.nav{
+    /* estilos */
+    background-color: #1E2732;
+    color :#fff;
+    font-family: 'Coda Caption', sans-serif;
+    /* posicionamento */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.nav-title{
+    font-size: 30px;
+}
+
+.nav-item{
+    font-size: 20px;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+}
+
+a{
+    background: #15202B;
+    padding: 10px;
+    color: #fff ;
+    text-decoration: none;
+    border-radius: 10px;
+}
